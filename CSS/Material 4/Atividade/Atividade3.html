@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 80px 20px 20px;
+            background-color: #fff0f6;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #c02670;
+            padding: 15px 0;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        button {
+            background-color: #e879ad;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #c02670;
+        }
+
+        button:active {
+            transform: scale(0.9);
+        }
+
+        li:nth-child(odd) {
+            background-color: #e5e5e5;
+        }
+
+        li:nth-child(even) {
+            background-color: white;
+        }
+
+        li {
+            padding: 10px;
+        }
+
+        h1::before {
+            content: "⭐ ";
+        }
+
+        h1::after {
+            content: " ⭐";
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        .destaque {
+            color: #c02670;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre mim</a>
+        <a href="#curiosidades">Curiosidades</a>
+    </nav>
+
+    <h1 id="inicio" class="destaque">Sobre mim</h1>
+
+    <p>Oi! Seja bem-vindo(a) ao meu cantinho!</p>
+
+    <h2 id="sobre">Você me conhece?</h2>
+
+    <button>Sim!</button>
+    <button>Não</button>
+
+    <h2 id="curiosidades">Um pouquinho sobre mim</h2>
+
+   <ul>
+    
+    <li>Tenho um cachorro 🐶</li>
+    <li>Moro no Campo Limpo, zona sul de São Paulo 📍</li>
+    <li>Sou fã de doces 🍫</li>
+
+   </ul>
+</body>
+</html>
+

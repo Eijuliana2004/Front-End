@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rap Feminino BR</title>
+
+    <style>
+        .container {
+            display: flex;
+            gap: 10px;
+            padding: 15px;
+            margin-bottom: 25px;
+            background-color: #E1BEE7;
+        }
+
+        .item {
+            width: 150px;
+            height: 80px;
+            flex-shrink: 0;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .item1 { background-color: #8E24AA; }
+        .item2 { background-color: #D81B60; }
+        .item3 { background-color: #5E35B1; }
+        .item4 { background-color: #AD1457; }
+        .item5 { background-color: #6A1B9A; }
+        .item6 { background-color: #C2185B; }
+        .item7 { background-color: #7B1FA2; }
+        .item8 { background-color: #E91E63; }
+
+        .sem-wrap {
+            flex-wrap: nowrap;
+            overflow-x: auto;
+        }
+
+        .com-wrap {
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Rap Feminino Brasileiro</h1>
+
+    <h2>1. Sem wrap - Todos na mesma linha</h2>
+
+    <div class="container sem-wrap">
+        <div class="item item1">99 Problemas</div>
+        <div class="item item2">Púrpura</div>
+        <div class="item item3">Única</div>
+        <div class="item item4">KIA</div>
+        <div class="item item5">Rotina</div>
+        <div class="item item6">99 Problemas</div>
+        <div class="item item7">Púrpura</div>
+        <div class="item item8">Única</div>
+    </div>
+
+    <h2>2. Com wrap - Quebrando para várias linhas</h2>
+
+    <div class="container com-wrap">
+        <div class="item item1">99 Problemas</div>
+        <div class="item item2">Púrpura</div>
+        <div class="item item3">Única</div>
+        <div class="item item4">KIA</div>
+        <div class="item item5">Rotina</div>
+        <div class="item item6">99 Problemas</div>
+        <div class="item item7">Púrpura</div>
+        <div class="item item8">Única</div>
+    </div>
+
+</body>
+</html>

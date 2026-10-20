@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim</title>
+
+    <style>
+        .botao-hover {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .botao-hover:hover {
+            background-color: green;
+        }
+        .botao-active {
+            background-color: purple;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.1s;
+        }
+
+        .botao-active:active {
+            transform: scale(0.9);
+        }
+
+        li:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+        li {
+            padding: 10px;
+        }
+
+        input:focus {
+            outline: none;
+            border: 2px solid blue;
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>♡ Sobre mim ♡</h1>
+
+    <p>Oi! Seja bem-vindo(a) ao meu cantinho!</p>
+
+    <h2>Você me conhece? </h2>
+    <button class="botao-hover">Sim!</button>
+    <button class="botao-active">Não</button>
+
+    <h2>Um pouquinho sobre mim</h2>
+    <ul>
+        <li>Meu nome= Juliana</li>
+        <li>Minha idade= 21 anos</li>
+        <li>O que estou estudando= Administração</li>
+        <li>Meus hobbies= Ler livros e ouvir música</li>
+        <li>Minha comida favorita= Pizza</li>
+        <li>Minha música favorita= Leal-Djonga</li>
+        <li>Meu filme favorito= Grinch</li>
+        <li>Um sonho que tenho= Viajar pelo mundo</li>
+        <li>Algo que amo fazer= Fazer coisas novas</li>
+        <li>Uma curiosidade sobre mim= Sou introvertida</li>
+    </ul>
+
+    <h2>Vamos nos conhecer? </h2>
+    <label for="nome">Qual é o seu nome?</label>
+    <input type="text" id="nome" placeholder="Digite seu nome">
+
+</body>
+</html>

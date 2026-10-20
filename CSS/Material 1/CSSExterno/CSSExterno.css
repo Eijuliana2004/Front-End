@@ -1,0 +1,19 @@
+/* Estilização completa */
+
+
+h1{
+    color: blueviolet;
+}
+
+p{
+    color: red;
+    font-size: medium;
+    text-align: center;
+}
+
+/* Estilização da minha pagina sobre */
+
+.brincar{
+    color:cornflowerblue;
+    text-align:justify;
+}
